@@ -12,6 +12,10 @@
       {
         "title": "Let's deploy a game server!",
         "text": "step2/text.md"
+      },
+      {
+        "title": "Let's deploy a game server!",
+        "text": "step3/text.md"
       }
     ],
     "finish": {

@@ -1,28 +1,22 @@
 # Step-2: Running the server
 
-Now that everything is in place, let's run the game server.
+**1. Run the game server**
 
+Now that everything is in place, let's run the game server.
 
 ```
 gunicorn --bind 0.0.0.0:8080 main:app
 ```{{copy}}
 
 
-Now follow the instructions below to access the application: 
+**2. Access the application**
 
-![](./assets/open-port-1.png)
-
-
-Enter `8080` as the input and click on `Access`
-
-![](./assets/open-port-2.png)
+To access the application [click here]({{TRAFFIC_HOST1_8080}})
 
 
-Now you can access the game! 
-
+**3. Close the game server**
 
 Click the following to close the game server: 
-
 
 ```
 # close the game server
