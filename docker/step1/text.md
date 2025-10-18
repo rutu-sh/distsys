@@ -2,7 +2,9 @@
 
 Run the following command to clone the github repository containing the source code for our game server. 
 
-```shell
-git clone https://github.com/rutu-sh/distsys-manifests.git
 ```
+git clone https://github.com/rutu-sh/distsys-manifests.git
+```{{copy}}
+
+
 
