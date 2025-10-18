@@ -1,10 +1,55 @@
-# Step-1: Setting up 
+# Step-1: Setting up
 
-Run the following command to clone the github repository containing the source code for our game server. 
+Run the following command to clone the GitHub repository containing the source code for our game server. 
+
 
 ```
 git clone https://github.com/rutu-sh/distsys-manifests.git
 ```{{copy}}
+
+
+To run Python code, we need to install and setup virtual environment feature for Python. 
+Run the following command to download the virtual environment setup for Python.
+
+
+```
+sudo apt install -y python3-venv
+```{{copy}}
+
+
+Next, run the following to change directory into the downloaded code. 
+
+
+```
+cd ~/distsys-manifests/docker/t-rex-game
+```{{copy}}
+
+
+Now run the following to create a virtual environment for our game server. 
+
+
+```
+python3 -m venv .venv
+```{{copy}}
+
+
+Activate the virtual environment by running the following command 
+
+
+```
+source .venv/bin/activate
+```{{copy}}
+
+
+Lastly, install the required packages needed for running the game server. 
+
+
+```
+pip3 install -r requirements.txt
+```{{copy}}
+
+
+Now the setup is complete for running our game server. 
 
 
 
