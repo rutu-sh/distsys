@@ -1,6 +1,6 @@
-# Step-2: Running the server
+# Part-2: Running the server
 
-**1. Run the game server**
+### 1. Run the game server
 
 Now that everything is in place, let's run the game server.
 
@@ -19,5 +19,7 @@ To access the application [click here]({{TRAFFIC_HOST1_8080}})
 Click the following to close the game server: 
 
 ```
-# close the game server
+### 2. close the game server
 ```{{exec interrupt}}
+
+Click on the above command to shut down the game server.

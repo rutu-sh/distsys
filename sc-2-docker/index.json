@@ -1,0 +1,24 @@
+{
+  "title": "Docker Introduction",
+  "details": {
+    "intro": {
+      "text": "intro.md"
+    },
+    "steps": [
+      {
+        "title": "Docker",
+        "text": "step-1/text.md"
+      },
+      {
+        "title": "Docker",
+        "text": "step-2/text.md"
+      }
+    ],
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "backend": {
+    "imageid": "ubuntu"
+  }
+}
