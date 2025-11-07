@@ -7,15 +7,31 @@
     "steps": [
       {
         "title": "Let's deploy a game server!",
-        "text": "step1/text.md"
+        "text": "step-1/text.md"
       },
       {
         "title": "Let's deploy a game server!",
-        "text": "step2/text.md"
+        "text": "step-2/text.md"
       },
       {
         "title": "Let's deploy a game server!",
-        "text": "step3/text.md"
+        "text": "step-3/text.md"
+      },
+      {
+        "title": "Let's deploy a game server!",
+        "text": "step-4/text.md"
+      },
+      {
+        "title": "Let's deploy a game server!",
+        "text": "step-5/text.md"
+      },
+      {
+        "title": "Let's deploy a game server!",
+        "text": "step-6/text.md"
+      },
+      {
+        "title": "Let's deploy a game server!",
+        "text": "step-7/text.md"
       }
     ],
     "finish": {
