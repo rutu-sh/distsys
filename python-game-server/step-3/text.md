@@ -6,7 +6,7 @@ Next, run the following to change directory into the downloaded code.
 
 
 ```
-cd ~/distsys-manifests/docker/t-rex-game
+cd ~/distsys-manifests/python-game-server/t-rex-game
 ```{{copy}}
 
 
