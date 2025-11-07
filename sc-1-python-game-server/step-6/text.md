@@ -8,18 +8,3 @@ Now that everything is in place, let's run the game server.
 gunicorn --bind 0.0.0.0:8080 main:app
 ```{{copy}}
 
-
-**2. Access the application**
-
-To access the application [click here]({{TRAFFIC_HOST1_8080}})
-
-
-**3. Close the game server**
-
-Click the following to close the game server: 
-
-```
-### 2. close the game server
-```{{exec interrupt}}
-
-Click on the above command to shut down the game server.
