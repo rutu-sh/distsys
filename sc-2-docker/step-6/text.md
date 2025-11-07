@@ -8,3 +8,9 @@ When we ran the `docker run` command, the following happens:
 2. If the image does not exist on the system, it fetches it for you
 3. Then, using the image, it creates and runs the container with name `hello-world`
 
+
+You can list the docker images on your system by running the following command: 
+
+```
+docker image ls
+```{{copy}}

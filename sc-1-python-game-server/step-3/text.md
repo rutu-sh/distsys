@@ -6,7 +6,7 @@ Next, run the following to change directory into the downloaded code.
 
 
 ```
-cd ~/distsys-manifests/python-game-server/t-rex-game
+cd ~/gw-distsys-python-game-server/src
 ```{{copy}}
 
 
