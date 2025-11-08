@@ -10,6 +10,14 @@ Here's a list of all the steps we did:
 5. Install the required packages
 6. Run the game server
 
+
+On top of that, we built and ran our server on the following configuration: 
+
+1. A linux system
+2. Python3 version 3.12.3
+3. Python3 requirements (`flask==3.1.2` and `gunicorn==23.0.0`)
+
+
 We realized that Doing all this manually for every server that should run your application could be **too much**. 
 
 It would be better if we could automate this into a **Blueprint** that could be run anywhere with a **single command**.
