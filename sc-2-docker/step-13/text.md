@@ -2,21 +2,18 @@
 
 ### Let's build a Docker image for our Python server
 
-At this point everything is setup for our container to run. 
-
-
-Now, at the end, we just have to add a command which docker should run whenever we create a new container. 
-
-Paste this line in your Dockerfile: 
+Next, paste this line in your Dockerfile: 
 
 ```
-CMD ["gunicorn", "--bind",  "0.0.0.0:8080", "main:app"]
+RUN pip3 install -r requirements.txt
 ```{{copy}}
 
-
-This performs the following step: 
+This takes care of the following: 
 
 6. Run the game server ✅
 
+And ensures the following configurations: 
 
-Perfect! Now our Dockerfile is ready and we can build a Docker image. 
+3. Python3 requirements (`flask==3.1.2` and `gunicorn==23.0.0`) ✅
+
+Now we have everything needed to run the container available in the Image. 

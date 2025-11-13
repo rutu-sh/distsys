@@ -2,10 +2,12 @@
 
 ### Let's build a Docker image for our Python server
 
-Open the terminal and change directory: 
+Build the image by running the following command: 
 
 ```
-cd ~/gw-distsys-docker-introduction
+docker build -t python-game-server .
 ```{{copy}}
+
+
 
 

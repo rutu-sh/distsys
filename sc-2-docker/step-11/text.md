@@ -5,7 +5,7 @@
 Next, paste this line in your Dockerfile: 
 
 ```
-FROM python3.12.3-slim
+FROM python:3.12.3-slim
 ```{{copy}}
 
 This single step takes care of the following configurations:
