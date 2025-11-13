@@ -7,7 +7,7 @@ We ran the following command to start our container. Let's understand more about
 
 ```
 docker run -d --name hello-world -p 8080:80 docker/welcome-to-docker 
-```{{copy}}
+```
 
 
 The command has the following parameters: 
