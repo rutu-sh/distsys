@@ -2,16 +2,16 @@
 
 ### Let's build a Docker image for our Python server
 
+Add the following line to make sure we change directory to where our code is located: 
+
+```
+WORKDIR /src
+```{{copy}}
+
 Next, paste this line in your Dockerfile: 
 
 ```
 COPY src .
-```{{copy}}
-
-Also add the following line to make sure we change directory to where our code is located: 
-
-```
-WORKDIR /src
 ```{{copy}}
 
 This takes care of the following: 
