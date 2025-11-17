@@ -13,7 +13,7 @@ cd ~/gw-distsys-python-game-server-k8s
 To create the deployment, run the following command: 
 
 ```
-kubectl apply -f game_deployment.yaml
+kubectl apply -f redis_deployment.yaml
 ```{{copy}}
 
 
@@ -24,7 +24,7 @@ kubectl get deployments
 ```{{copy}}
 
 
-Now this deployment will create three pods of game-server. 
+Now this deployment will create one pods of redis. 
 We can view these pods by running the following command: 
 
 

@@ -27,7 +27,7 @@ spec:
         - name: game-server-container
           image: rutush10/python-game-server-redis:v0.0.3
           ports:
-            - containerPort: 5000
+            - containerPort: 8080
           env:
             - name: REDIS_HOST
               value: "redis"        # matches redis Service name
@@ -35,11 +35,11 @@ spec:
               value: "6379"
           resources:
             requests:
-              cpu: "500m"
-              memory: 512Mi
+              cpu: "250m"
+              memory: 256Mi
             limits:
-              cpu: "2"
-              memory: 2Gi
+              cpu: "250m"
+              memory: 256Mi
 ```
 
 This defines a deployment that looks like this
