@@ -1,6 +1,7 @@
 {
   "items": [
     { "path": "sc-1-python-game-server" },
-    { "path": "sc-2-docker"}
+    { "path": "sc-2-docker"},
+    { "path": "sc-3-kubernetes"}
   ]
 }
