@@ -52,6 +52,10 @@
       {
         "title": "Kubernetes",
         "text": "step-12/text.md"
+      },
+      {
+        "title": "Kubernetes",
+        "text": "step-13/text.md"
       }
     ],
     "finish": {
