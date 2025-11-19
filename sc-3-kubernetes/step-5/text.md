@@ -35,11 +35,11 @@ spec:
               value: "6379"
           resources:
             requests:
-              cpu: "250m"
-              memory: 256Mi
+              cpu: "125m"
+              memory: 128Mi
             limits:
-              cpu: "250m"
-              memory: 256Mi
+              cpu: "125m"
+              memory: 128Mi
 ```
 
 This defines a deployment that looks like this

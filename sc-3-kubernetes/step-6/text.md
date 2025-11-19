@@ -31,3 +31,12 @@ We can view these pods by running the following command:
 ```
 kubectl get pods
 ```{{copy}}
+
+Copy the name of one of the pods and run the following command with it: 
+
+```
+kubectl delete pod <pod-name>
+```{{copy}}
+
+
+We deleted one of the 3 pods, but the deployment should have scheduled a new one in its place.

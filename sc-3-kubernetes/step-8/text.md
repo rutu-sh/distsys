@@ -1,7 +1,7 @@
 # Kubernetes Basics
 
 
-### Creating the game server deployment
+### Creating the redis server deployment
 
 First ensure we're in the correct directory: 
 
@@ -23,11 +23,3 @@ To view the deployment run the following command:
 kubectl get deployments
 ```{{copy}}
 
-
-Now this deployment will create one pods of redis. 
-We can view these pods by running the following command: 
-
-
-```
-kubectl get pods
-```{{copy}}

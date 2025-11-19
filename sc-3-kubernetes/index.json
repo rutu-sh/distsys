@@ -1,33 +1,57 @@
 {
-  "title": "Docker Introduction",
+  "title": "Kubernetes Introduction",
   "details": {
     "intro": {
       "text": "intro.md"
     },
     "steps": [
       {
-        "title": "Docker",
+        "title": "Kubernetes",
         "text": "step-1/text.md"
       },
       {
-        "title": "Docker",
+        "title": "Kubernetes",
         "text": "step-2/text.md"
       },
       {
-        "title": "Docker",
+        "title": "Kubernetes",
         "text": "step-3/text.md"
       },
       {
-        "title": "Docker",
+        "title": "Kubernetes",
         "text": "step-4/text.md"
       },
       {
-        "title": "Docker",
+        "title": "Kubernetes",
         "text": "step-5/text.md"
       },
       {
-        "title": "Docker",
+        "title": "Kubernetes",
         "text": "step-6/text.md"
+      },
+      {
+        "title": "Kubernetes",
+        "text": "step-7/text.md"
+      },
+      {
+        "title": "Kubernetes",
+        "text": "step-8/text.md"
+      },
+      {
+        "title": "Kubernetes",
+        "text": "step-9/text.md"
+      },
+      {
+        "title": "Kubernetes",
+        "text": "step-10/text.md"
+      },
+      {
+        "title": "Kubernetes",
+        "text": "step-11/text.md"
+      },
+      {
+        "title": "Kubernetes",
+        "text": "step-12/text.md"
       }
     ],
     "finish": {
